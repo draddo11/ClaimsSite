@@ -17,11 +17,166 @@
                     <a href="login.html" class="btn btn-outline-light btn-lg">Logout</a>
                </div>
             </div>
-    
-           
         </div>
+
         <div class="col-sm-11 form-div d-flex justify-content-center" >
-           
+            <div class="cbg-form col-sm-6">
+                <form>
+                    <div class="row mb-3">
+                        <div class="col-sm-12">
+                            <label for="exampleInputEmail1" class="form-label">Policy Number</label>
+                            <input type="text" class="form-control" id="pnum">
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <div class="col-sm-6">
+                            <label for="exampleInputEmail1" class="form-label">Name of Insured Person</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="exampleInputEmail1" class="form-label">Telephone Number</label>
+                            <input type="text" class="form-control" id="tel" >
+                        </div>
+                    </div>
+        
+                    <div class="row mb-3">
+                        <div class="col-sm-6">
+                            <label for="exampleInputEmail1" class="form-label">Occupation</label>
+                            <input type="text" class="form-control" id="job">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="exampleInputEmail1" class="form-label">ID Expiry Date</label>
+                            <input type="text" class="form-control" id="expiry-date" >
+                        </div>
+                    </div>
+        
+                    <div class="row mb-3">
+                        <div>
+                            PARTICULARS OF MOTOR VEHICLE CONCERNED: - 
+                        </div>
+                        <br>
+                        <div class="col-sm-6">
+                            <label for="exampleInputEmail1" class="form-label">Registration No.</label>
+                            <input type="text" class="form-control" id="regnum">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="exampleInputEmail1" class="form-label">Make</label>
+                            <input type="text" class="form-control" id="make">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="exampleInputEmail1" class="form-label">Model</label>
+                            <input type="text" class="form-control" id="model">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="exampleInputEmail1" class="form-label">year of Make</label>
+                            <input type="text" class="form-control" id="yom" >
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <div class="col-sm-6">
+                            <label for="exampleInputEmail1" class="form-label">Hire Purchase/Loan</label>
+                            <input type="text" class="form-control" id="loan">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="exampleInputEmail1" class="form-label">Finance/Lending Company</label>
+                            <input type="text" class="form-control" id="region">
+                        </div>
+                    </div>
+        
+                    <div class="row mb-3">
+                        <div class="col-sm-6">
+                            <label class="form-label">Purpose of vehicle usage</label>
+                            <input type="textbox" class="form-control" id="city">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="exampleInputEmail1" class="form-label">Was vehicle use consented?</label>
+                            <input type="text" class="form-control" id="phone">
+                        </div>    
+                    </div>
+        
+                    <div class="row mb-3">
+                        <div>
+                            CIRCUMSTANCES OF ACCIDENT: - 
+                        </div>
+                       <br>
+                        <div class="col-sm-6">    
+                            <label for="exampleInputEmail1" class="form-label">Loss Date</label>
+                            <input type="text" class="form-control" id="actype">
+
+                            <label for="exampleInputEmail1" class="form-label">Loss Time</label>
+                            <input type="text" class="form-control" id="accurrency">
+
+                            <label for="exampleInputEmail1" class="form-label">Location of Accident</label>
+                            <input type="text" class="form-control" id="location">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="exampleInputEmail1" class="form-label">Speed of Vehicle</label>
+                            <input type="text" class="form-control" id="speed">
+
+                            <label for="exampleInputEmail1" class="form-label">What lights were still lit after impact</label>
+                            <input type="text" class="form-control" id="location">
+                        </div>
+                       
+                    </div>
+                        
+                    <div class="row mb-3">
+                        <div class="col-sm-6">
+                            <div>
+                                Nature of Loss
+                            </div>
+                            <br>
+                            <div>
+                                <input class="form-check-input" type="checkbox" value="" id="natureOfLoss">
+                                <label class="form-label">301 - OWN DAMAGE PARTIAL LOSS </label>
+                                <!-- <input type="checkbox" class="form-control" id="nature of loss"> -->
+                            </div>
+                            <div> 
+                                <input type="checkbox" class="form-check-input" id="nature of loss">
+                                <label class="form-label">300 - OWN DAMAGE TOTAL LOSS   </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="form-check-input" id="nature of loss">
+                                <label class="form-label">302 - OWN DAMAGE THEFT </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="form-check-input" id="nature of loss">
+                                <label class="form-label">303 - OWN DAMAGE FIRE</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="form-check-input" id="nature of loss">
+                                <label class="form-label">304 - THIRD PARTY PROPERTY DAMAGE</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="form-check-input" id="nature of loss">
+                                <label class="form-label">305 - THIRD PARTY BODILY INJURY</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="form-check-input" id="nature of loss">
+                                <label class="form-label">100 - INJURY TO THIRD PARTY</label>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label class="form-label">Number of people in the vehicle during accident</label>
+                            <input type="textbox" class="form-control" id="nop">
+                            <label for="exampleInputEmail1" class="form-label">If you were not in the vehicle, when was accident reported to you: </label>
+                            <input type="text" class="form-control" id="phone">
+
+                            <label class="form-label">Give full description of how the accident happened:</label>
+                            <input type="textbox" class="form-control" id="nop">
+                        </div>
+                        
+                       
+                    </div>
+    
+                    <br>
+                    <div>
+                        <button type="clear" id="demo" class="btn btn-lg btn-dark text-white" onclick="myFunction()">Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
     
